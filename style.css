@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.image-logo{
+    margin-left: 20px;
+    height: 50px;
+}
+.header{
+    width: 100%;
+}
+.main{
+    background: url(img/)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+
+.line{
+    width: 20%;
+    height: 4px;
+    border: 0 none;
+    background-color:#0B6623;
+}
+
+.scrollTop{
+   position: fixed;
+   bottom: 20px;
+   right: 30px;
+   padding: 10px 15px;
+   background-color: #777777;;
+   color: #fff;
+   border-radius: 0px;
+   border-radius: 0px solid #66765f;;
+   cursor: pointer;
+   
+}
+.scrollTop:hover{
+    opacity: 0.5;
+}
+.image-src{
+    width:100%;
+    max-height: fit-content;
+}
+
